@@ -1,62 +1,28 @@
 @import "../style/general";
 
-.bg {
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  background-image: linear-gradient(
-      rgba(18, 32, 43, 0.92),
-      rgba(18, 32, 43, 0.92)
-    ),
-    url("../images/bg1.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.content {
-  position: absolute;
-  top: 0;
-}
-
 main {
-  width: 80%;
-  margin: 0% auto;
-  @include mQ(1060px) {
-    width: 98%;
-    margin: 0% auto;
-  }
+  width: 100%;
+  background-image: url("../images/bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
 }
 
-h1 {
-  font-size: 5.5em;
-  font-weight: 400;
-  color: #fff;
-  text-align: center;
-  margin: 3em 0em 0.2em 0em;
-  font-stretch: ultra-condensed;
-
-  @include mQ(1220px) {
-    font-size: 4.5em;
-  }
-  @include mQ(1000px) {
-    font-size: 3em;
-  }
-  @include mQ(670px) {
-    font-size: 2em;
-  }
+.svg-path {
+  transform: translateY(4px);
+  fill: $secondary-bg;
+  z-index: 0;
 }
 
-h2 {
-  font-size: 4.5em;
-  font-weight: 200;
-  color: #1897ff;
+.projects-heading {
+  margin: 5em 0em;
+  font-size: 2em;
+  font-weight: 500;
   text-align: center;
-
-  @include mQ(1220px) {
-    font-size: 3.5em;
-  }
-  @include mQ(1000px) {
-    font-size: 2em;
+  color: #3a416f;
+  @include mQ(606px) {
+    font-size: 1.5em;
+    margin-top: 3.5em;
   }
 }

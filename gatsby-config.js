@@ -9,6 +9,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-netlify-cache`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -26,17 +27,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/icon.png`,
-      },
-    },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: `Montserrat`,
-            variants: [`200`, `300`, `400`, `500`],
-          },
-        ],
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

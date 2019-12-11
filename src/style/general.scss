@@ -1,16 +1,12 @@
 @import "mixins";
 
-/* VARIABLES */
-$primary-color: #1897ff;
-$dark-color: #141414;
-$light-color: #f4f4f4;
-
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-display: swap;
   margin: 0;
   padding: 0;
-  color: #fff;
 }
 
 ul {
@@ -59,11 +55,11 @@ img {
 body::-webkit-scrollbar {
   width: 0.6em;
   height: 0.6em;
-  background-color: rgba(18, 32, 43, 0.92);
+  background-color: $primary-bg;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #2c3a47;
+  background-color: #323b5e;
   border-radius: 10px;
 }
 
