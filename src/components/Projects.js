@@ -3,13 +3,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Video from "./Video.js"
 import "./Projects.scss"
-import AOS from "aos"
-import "aos/dist/aos.css"
-
-AOS.init({
-  offset: 400,
-  duration: 1000,
-})
 
 const Image = () => {
   const [projectType] = useState([
@@ -62,7 +55,14 @@ const Image = () => {
   return (
     <div className="cards-container">
       {data.allFile.nodes.map(image => (
-        <div className="card" key={image.id} data-aos="fade-up">
+        <div
+          className="card"
+          key={image.id}
+          data-sal="slide-up"
+          data-sal-duration="800"
+          data-sal-delay="300"
+          data-sal-easing="ease-in-out"
+        >
           <Img
             fixed={image.childImageSharp.fixed}
             alt="work screenshot"

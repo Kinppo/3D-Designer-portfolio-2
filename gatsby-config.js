@@ -11,6 +11,12 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-netlify-cache`,
     {
+      resolve: `gatsby-plugin-scroll-reveal`,
+      options: {
+        once: false,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
