@@ -23,14 +23,15 @@ const Image = () => {
     "Converting 2D image to a 3D modele",
     "Converting 2D image to a 3D modele",
   ])
+
   const [links] = useState([
     "https://www.youtube.com/embed/GBQ3OwxoOzo",
-    "https://www.youtube.com/embed/vJ4dfKTEKsA",
+    "https://www.youtube.com/embed/vbXV5joa1gc",
     "https://www.youtube.com/embed/tzU3rII8tyg",
-    "https://www.youtube.com/embed/d4NIoFHqwDQ",
-    "https://www.youtube.com/embed/mZvQ9ipTK_8",
-    "https://www.youtube.com/embed/DeumyOzKqgI",
-    "https://www.youtube.com/embed/eVLJ4HOzi1c",
+    "https://www.youtube.com/embed/b9YDScOsRQo",
+    "https://www.youtube.com/embed/vJ4dfKTEKsA",
+    "https://www.youtube.com/embed/UxvAnTbiw6E",
+    "https://www.youtube.com/embed/7KrNGNvqoZc",
   ])
   const [videoState, setVideo] = useState("")
   const data = useStaticQuery(graphql`
