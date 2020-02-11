@@ -10,6 +10,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-netlify-cache`,
+    `gatsby-plugin-offline`,
     {
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
