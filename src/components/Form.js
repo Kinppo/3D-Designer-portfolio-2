@@ -43,6 +43,7 @@ const Form = () => {
     >
       <input type="hidden" name="form-name" value="contact" />
       <div className="inputs">
+        <label for="name">i</label>
         <input
           type="text"
           name="name"
@@ -58,6 +59,7 @@ const Form = () => {
             })
           }}
         />
+        <label for="email">i</label>
         <input
           type="text"
           name="email"
@@ -73,6 +75,7 @@ const Form = () => {
             })
           }}
         />
+        <label for="message">i</label>
         <textarea
           type="text"
           name="message"
