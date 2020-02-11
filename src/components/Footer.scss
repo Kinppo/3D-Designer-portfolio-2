@@ -2,7 +2,10 @@
 footer {
   text-align: center;
   background-color: $secondary-bg;
-
+  span {
+      font-size: 1px;
+      color: $primary-bg;
+    }
   .footer-top {
     padding: 2% 15% 0% 15%;
     @include mQ(1500px) {
