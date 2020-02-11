@@ -16,7 +16,14 @@
       grid-template-rows: 1fr 1fr 3fr;
     }
   }
-
+  
+  label {
+    position: absolute;
+    font-size: 1px;
+    padding: 0;
+    color: $primary-bg;
+  }
+  
   .form-input {
     width: 100%;
     color: #fff;
