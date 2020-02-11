@@ -25,7 +25,7 @@ const Footer = () => {
             href="https://www.facebook.com/"
             target="_blank"
             rel="noopener noreferrer"
-          >
+          ><span>I</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -39,7 +39,7 @@ const Footer = () => {
             href="https://twitter.com/"
             target="_blank"
             rel="noopener noreferrer"
-          >
+          ><span>I</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -53,7 +53,7 @@ const Footer = () => {
             href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
-          >
+          ><span>I</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -67,7 +67,7 @@ const Footer = () => {
             href="https://youtube.com/"
             target="_blank"
             rel="noopener noreferrer"
-          >
+          ><span>I</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
