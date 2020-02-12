@@ -2,7 +2,7 @@
 A simple Portfolio template for developer/designers built with React and Gatsby. Use it to showcase your work, testimonials and other information to clients.
 
 ## Preview
-<img src="https://i.ibb.co/Q7g04wG/portfolio.png" alt="previw image" border="0">
+<img src="https://i.ibb.co/f47rcPc/screencapture-amaou-netlify-2020-02-12-20-46-54.png" alt="screencapture-amaou-netlify-2020-02-12-20-46-54" border="0">
 
 ## How to use
 1. Clone/Download the repo.
